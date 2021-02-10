@@ -1,0 +1,36 @@
+{
+  "name": "dog-bot",
+  "version": "1.0.0",
+  "description": "A discord bot following you.",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "clean": "npx rimraf dist",
+    "build": "tsc -p ."
+  },
+  "author": "BurakBey",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "discord.js": "^12.5.1",
+    "figlet": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/clear": "^0.1.1",
+    "@types/figlet": "^1.2.1",
+    "@types/node": "^14.14.10",
+    "nodemon": "^2.0.6",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BUR4KBEY/dog-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BUR4KBEY/dog-bot/issues"
+  },
+  "homepage": "https://github.com/BUR4KBEY/dog-bot#readme"
+}
